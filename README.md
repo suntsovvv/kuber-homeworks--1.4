@@ -1,24 +1,5 @@
 # Домашнее задание к занятию «Сетевое взаимодействие в K8S. Часть 1»
 
-### Цель задания
-
-В тестовой среде Kubernetes необходимо обеспечить доступ к приложению, установленному в предыдущем ДЗ и состоящему из двух контейнеров, по разным портам в разные контейнеры как внутри кластера, так и снаружи.
-
-------
-
-### Чеклист готовности к домашнему заданию
-
-1. Установленное k8s-решение (например, MicroK8S).
-2. Установленный локальный kubectl.
-3. Редактор YAML-файлов с подключённым Git-репозиторием.
-
-------
-
-### Инструменты и дополнительные материалы, которые пригодятся для выполнения задания
-
-1. [Описание](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) Deployment и примеры манифестов.
-2. [Описание](https://kubernetes.io/docs/concepts/services-networking/service/) Описание Service.
-3. [Описание](https://github.com/wbitt/Network-MultiTool) Multitool.
 
 ------
 
@@ -162,6 +143,9 @@ md-svc        ClusterIP   10.152.183.207   <none>        9001/TCP,9002/TCP   77m
 out-service   NodePort    10.152.183.182   <none>        80:30001/TCP        10s
 ```
 Проверил доступ из вне:
+![image](https://github.com/user-attachments/assets/050e600a-1140-48be-8296-951e3b36721a)
+
+![image](https://github.com/user-attachments/assets/f101d365-6181-4598-bcd5-4da312d3116c)
 
 
 ------
