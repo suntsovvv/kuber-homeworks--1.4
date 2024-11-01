@@ -147,6 +147,7 @@ out-service   NodePort    10.152.183.182   <none>        80:30001/TCP        10s
 
 ![image](https://github.com/user-attachments/assets/f101d365-6181-4598-bcd5-4da312d3116c)
 
-
+Ссылка на манифесты:
+https://github.com/suntsovvv/kuber-homeworks-1.4
 ------
 
