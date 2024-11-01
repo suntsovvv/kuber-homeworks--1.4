@@ -7,10 +7,10 @@ spec:
     app: md
   ports:
     - protocol: TCP
-      name: ngiinx
-      port: 80
+      name: nginx
+      port: 9001
       targetPort: 80
     - protocol: TCP
       name: multitool
-      port: 8080
-      targetPort: 1180
+      port: 9002
+      targetPort: 8080

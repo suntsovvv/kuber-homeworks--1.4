@@ -5,7 +5,7 @@ metadata:
   labels:
     app: md
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: md
@@ -25,4 +25,4 @@ spec:
         - containerPort: 8080
         env:
         - name: HTTP_PORT
-          value: "1180"
+          value: "8080"
